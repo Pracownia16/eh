@@ -1,0 +1,31 @@
+header {
+    position: relative;
+    height: 128px;
+    background-color: var(--background-second);
+    background-image: url("html5.png");
+    background-repeat: no-repeat;
+    background-position: 870px 15px;
+    background-size: 50px;
+}
+
+header h1 {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 7px;
+}
+
+header h1::first-letter {
+    font-size: 45px;
+}
+
+header img {
+    position: absolute;
+    width: 96px;
+    left: 250px;
+    top: 60px;
+
+}
